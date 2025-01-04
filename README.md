@@ -1,2 +1,4 @@
-# alcorithms
-Solving neetcode150 
+# alcorithms | Neetcode150
+
+### Testing
+Use `pytest -v [filename].py`
