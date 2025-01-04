@@ -1,5 +1,10 @@
 from typing import List
 
+# Task: https://neetcode.io/problems/duplicate-integer
+# Solution
+# Time: O(n)
+# Memory: O(n)
+
 
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
@@ -10,10 +15,6 @@ class Solution:
             hashset.add(num)
 
         return False
-
-
-# Time: O(n)
-# Memory: O(n)
 
 
 solution = Solution()
